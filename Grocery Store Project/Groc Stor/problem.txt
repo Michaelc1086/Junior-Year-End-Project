@@ -1,0 +1,7 @@
+Problem:
+
+Create a webpage layout for the two pages from pictures HomePage.png and GenresPage. 
+
+You don't need to rewrite everything. You should copy most of the Javascript code, some HTML and CSS from the classwork from lesson 51 and this lesson..
+
+You will need to tweak some of the Javascript, CSS and HTML to incorporate the city flags.

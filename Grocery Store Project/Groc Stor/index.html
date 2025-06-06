@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+  </head>
+  <body >
+    <div >
+      <!--  Header or Banner -->
+      <div id="header">
+        <h1> Grocery Store Database</h1>
+      </div>
+      
+      <div class='searchpanel'>
+          Search Panel
+          <input style="flex:2;text-align:right;" type="text" 
+            id="n" placeholder="Enter Name" >      
+          <a class="button" onclick="filter()"> Search </a><br>
+		  
+
+
+      </div>
+
+      <div class="container">
+        <!--  nav bar -->
+        <nav id='nav'>
+          <H2>Pages</H2><br> 
+          <div>
+            <a href="index.html" class="button">HOME</a> <br>
+            <a href="Customers.html" class="button">CUSTOMERS</a> <br>
+			<a href="OrderItems.html" class="button">ORDER ITEMS</a>
+          </div>
+        </nav>
+        
+        <div id='mainpanel' class="container">
+			<h2>Welcome to Michael's and Eric's Grocerystore database. Here you can look through our database of regular customers. You can also filter by the name of our customers</h2>
+			<img src="HomePage.jpg">
+        </div>
+      </div>
+
+      <div id='foot'>
+        <h3>  </h3>
+      </div>
+
+    </div>
+    
+  </body>
+</html>
